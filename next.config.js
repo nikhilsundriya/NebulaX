@@ -14,7 +14,7 @@ const withPWA = require('next-pwa')({
     /solar-system\/textures\/.*/,
   ],
   runtimeCaching: [
-    // Astronomical imagery - CacheFirst (rarely changes)
+    // Astronomical imagery - CacheFirst (rarely changes) 
     {
       urlPattern: /^https:\/\/esawebb\.org\/archives\/images\/.*/i,
       handler: 'CacheFirst',
