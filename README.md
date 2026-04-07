@@ -8,7 +8,7 @@
 
 NebulaX is an interactive platform for exploring the universe through multiple wavelengths of light. Fly through a 3D solar system, browse JWST's infrared imagery with wavelength switching, map 2,600+ Kepler exoplanets, and explore the sky with real-time data from 11 space agencies.
 
-## Landing Page
+## Landing Page 
 
 The hero section features a live 75vw × 62vh Solar System preview — an interactive iframe of the full Three.js simulation that fills the above-the-fold viewport. Clicking anywhere on it navigates to `/solar-system` for the complete experience.
 
