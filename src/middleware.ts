@@ -2,7 +2,6 @@
  * Next.js Middleware
  * Generates a per-request CSP nonce and applies security headers
  */
-
 import { NextResponse } from 'next/server'
 import type { NextRequest } from 'next/server'
 
