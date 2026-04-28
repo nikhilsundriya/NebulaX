@@ -6,7 +6,6 @@
 // ============================================
 // Core Coordinate Types
 // ============================================
-
 export interface SkyCoordinates {
   /** Right Ascension in decimal degrees (0-360) */
   ra: number
@@ -21,7 +20,6 @@ export interface SkyCoordinates {
   /** Equinox of coordinates (default J2000) */
   equinox?: 'J2000' | 'B1950'
 }
-
 export interface SexagesimalCoordinates {
   ra: {
     hours: number
